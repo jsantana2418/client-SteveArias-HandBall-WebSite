@@ -27,7 +27,7 @@ var config = {
 	//show/hide abbreviations on disabled states
 	displayAbbreviationOnDisabledStates : false,
 	//true and state trigger text chnage, false to go to url on state click
-	useText : false,
+	useText : true,
 	//if useText true, set if text is to the right of the map or below
 	useTextAtBottom : false,
 	//href target when state is clicked if using urls

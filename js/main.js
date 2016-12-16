@@ -1,8 +1,8 @@
-$(function() {
-  $('#path0').on("click", function() {
-      $('iframe #mapRedirect').attr('src',paths[0].url);
-      }
-    });
+ $(document).ready(function() {
+  $(this).on("click", function() {
+    console.log($(this));
+    $('#mapRedirect').attr('src',paths[0].url);
+  });
 });
 //
 // $(function() {
